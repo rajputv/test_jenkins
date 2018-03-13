@@ -3,7 +3,8 @@ pipeline {
     stages {
         stage('Checkout Code') {
             steps {
-                  sh " 'echo HelloWorld!!!!' "
+                  sh "pwd"
+                  sh "echo HelloWorld"
             }
         }
    }
