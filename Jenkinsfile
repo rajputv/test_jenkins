@@ -5,6 +5,7 @@ pipeline {
             steps {
                   sh "pwd"
                   sh "echo HelloWorld"
+                  sh "echo HowYouDoing!!!"
             }
         }
    }
